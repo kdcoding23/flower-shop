@@ -92,7 +92,8 @@ header .icons a{
 }
 
 header .icons a:hover{
-    color: var(--pink);
+    color: rgb(205, 152, 255);
+    /* color: var(--pink); */
 }
 
 header #toggler{
@@ -319,6 +320,10 @@ header .fa-bars{
 
 .products .box-container .box .image .icons a:hover{
     background: #333;
+}
+
+.products .box-container .box .image .icons .fas:hover{
+    color: rgb(205, 152, 255);
 }
 
 .products .box-container .box .content{
